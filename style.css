@@ -1,0 +1,25 @@
+#cc {
+	border-style: solid;
+	border-color: grey;
+	background-color: grey;
+	height: 600px;
+	width:600px;
+	margin: auto;
+}
+
+#ccc {
+	border-style: solid;
+	border-color: grey;
+	height: 500px;
+	width:500px;
+	position: relative;
+	margin:50px auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	height: 800px;
+}
