@@ -29,7 +29,7 @@ var sketch = {
 		var size = document.getElementById('gridId');
 		this.sketch(size.value);
 		this.clear();
-		size = '';
+		size.value = null;
 	}
 
 
