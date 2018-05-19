@@ -14,6 +14,9 @@
 	width:500px;
 	position: relative;
 	margin:50px auto;
+	display: grid;
+  grid-gap: 1px;
+  grid-auto-rows: minmax(auto, auto);
 }
 
 h1 {
@@ -22,4 +25,8 @@ h1 {
 
 body {
 	height: 800px;
+}
+
+#wrapper {
+	text-align: center;
 }

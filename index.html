@@ -10,8 +10,11 @@
 		<h1>Etch-a-Sketcher</h1>
 		<div id="cc">
 			<div id="ccc"></div>
-			<button onclick=sketch.auto()>auto</button>
-			<button onclick=sketch.click()>click</button>
+			<div id="wrapper">
+				<button onclick=sketch.init()>Clear</button>
+				<button onclick=sketch.reset()>Grid Size</button>
+				<input id="gridId" type='number' onkeydown='search(this)'>
+			</div>
 		</div>
 		
 		<script src="script.js"></script>
